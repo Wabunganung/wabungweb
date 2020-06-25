@@ -118,3 +118,28 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+"""DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wabungweb_dv',
+        'USER': 'tyson',
+        'PASSWORD': 'H3ll0tyson',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'CACHE': DEBUG,
+        'BUNDLE_DIR_NAME': '/bundles/',  # must end with slash
+        'STATS_FILE': os.path.join(FRONTEND_DIR, 'webpack-stats.json'),
+    }
+}
+
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'wabungweb/templates/wabungweb')
+FRONTEND_DIR = os.path.join(BASE_DIR, 'wabungweb/frontend')
+TEMPLATES_DIR
+'webpack_loader',
+    'django_extensions',
+    'home.apps.HomeConfig',"""
